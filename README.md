@@ -1,7 +1,8 @@
 This Project was build upon the work of: KaiDMML.
 
-# I used the following dataset to create an automatic fake news detection system based upon the linear SVM model. 
-# It was able to classify 80% of the dataset correctly and using feature importance tools, I could describe the most relevant features in classifying fake news.
+# My contribution:
+I used the following dataset to create an automatic fake news detection system based upon the linear SVM model. 
+It was able to classify 80% of the dataset correctly and using feature importance tools, I could describe the most relevant features in classifying fake news.
 
 The minimalistic version of latest dataset provided in this repo (located in `dataset` folder) include following files:
 
