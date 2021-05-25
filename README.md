@@ -1,19 +1,7 @@
+This Project was build upon the work of: KaiDMML.
 
-
-## FakeNewsNet
-
-***We released a tool [FakeNewsTracker], for collecting, analyzing, and visualizing of fake news and the related dissemination on social media. Check it out!***
-
-***The latest dataset paper with detailed analysis on the dataset  can be found at [FakeNewsNet]***
-
-**Please use the current up-to-date version of dataset**
-
-Previous version of the dataset is available in branch named `old-version` of this repository.
-
-
-## Overview  
-
-Complete dataset cannot be distributed because of Twitter privacy policies and news publisher copy rights.  Social engagements and user information are not disclosed because of Twitter Policy. This code repository can be used to download news articles from published websites and relevant social media data from Twitter. 
+# I used the following dataset to create an automatic fake news detection system based upon the linear SVM model. 
+# It was able to classify 80% of the dataset correctly and using feature importance tools, I could describe the most relevant features in classifying fake news.
 
 The minimalistic version of latest dataset provided in this repo (located in `dataset` folder) include following files:
 
@@ -28,20 +16,6 @@ Each of the above CSV files is comma separated file and have the following colum
  - `url` - Url of the article from web that published that news 
  - `title` - Title of the news article
  - `tweet_ids` - Tweet ids of tweets sharing the news. This field is list of tweet ids separated by tab.
-
-## Installation    
-
-###  Requirements:
- Data download scripts are writtern in python and requires `python 3.6 +` to run.
- 
-Twitter API keys are used for collecting data from Twitter.  Make use of the following link to get Twitter API keys    
-https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html   
-
-Script make use of keys from  _tweet_keys_file.json_ file located in `code/resources` folder. So the API keys needs to be updated in `tweet_keys_file.json` file.  Provide the keys as array of JSON object with attributes `app_key,app_secret,oauth_token,oauth_token_secret` as mentioned in sample file.
-
-Install all the libraries in `requirements.txt` using the following command
-    
-    pip install -r requirements.txt
 
 
 ###  Configuration:
